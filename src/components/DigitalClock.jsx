@@ -15,6 +15,14 @@ useEffect(() => {
   return (
     <div>
         <h1>Digital Clock by Suren</h1>
+        <br />
+
+        <h2>{time.toLocaleTimeString("en-GB")}</h2>
+
+        <br />
+    
+        <h2>{time.toLocaleDateString("en-GB", 
+          { weekday: "long", month: "long", day: "numeric", year: "numeric" })}</h2>
     </div>
   )
 }
