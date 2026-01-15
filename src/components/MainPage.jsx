@@ -1,6 +1,6 @@
 import React from "react";
-import { Clock } from "./Clock";
-import { Calendar } from "./Calendar";
+import { Clock } from "./Clock.jsx";
+import { Calendar} from "./Calendar.jsx"
 
 export const MainPage = () => {
   return (
