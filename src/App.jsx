@@ -1,12 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { DigitalClock } from './components/DigitalClock.jsx'
+import { MainPage } from './components/MainPage.jsx'
 
 function App() {
   return (
   <div>
-  <DigitalClock />
+  <MainPage />
   </div>
   )
 }
