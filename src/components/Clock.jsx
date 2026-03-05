@@ -18,7 +18,7 @@ export const Clock = () => {
 
   return (
     <div className="text-center mb-6">
-      <h2 className="text-4xl font-semibold">{formattedTime}</h2>
+      <h2 className="text-4xl font-semibold text-white">{formattedTime}</h2>
       <h3 className="text-lg opacity-80">{formattedDate}</h3>
     </div>
   );

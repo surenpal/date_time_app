@@ -43,7 +43,7 @@ export const Calendar = () => {
           ◀
         </button>
 
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-xl font-semibold text-red-400">
           {new Date(currentYear, currentMonth).toLocaleString("en-GB", {
             month: "long",
             year: "numeric",
@@ -58,7 +58,7 @@ export const Calendar = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-7 mb-1 font-bold">
+      <div className="grid grid-cols-7 mb-1 font-bold text-gray-400">
         {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
           <div key={day} className="py-1">
             {day}
