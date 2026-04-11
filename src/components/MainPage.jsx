@@ -1,14 +1,11 @@
-import React from "react";
-import { Clock } from "./Clock";
 import { Calendar } from "./Calendar";
 
 export const MainPage = () => {
   return (
-    <div className="w-[350px] mx-auto mt-6 p-6 rounded-xl bg-gray-900 text-white text-center font-sans">
-      <h1 className="text-2xl font-bold mb-2 text-gray-400">Date-time-app</h1>
-
-      <Clock />
-      <Calendar />
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 flex items-center justify-center p-4">
+      <div className="w-full max-w-[440px] p-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 shadow-2xl shadow-black/60">
+        <Calendar />
+      </div>
     </div>
   );
 };
